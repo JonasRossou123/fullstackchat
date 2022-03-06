@@ -12,5 +12,3 @@ sendToMe.addEventListener('click', function() {
 socket.on('displayMessage', (data) => {
     targetMessage.innerHTML += data.name + ': ' + data.message + '<br>';
 });
-
-
