@@ -33,7 +33,6 @@ The frontend is build in the clientmap, where script.js is corresponding with se
 
 ### Make this run locally
 In the server folder: 
-  (* do the npm init command (the default values for the following prompts are fine))
   * npm install express --save
   * npm install socket.io --save
   * don't forget to run the server with **node server** in your cli
