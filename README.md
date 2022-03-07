@@ -11,7 +11,7 @@ An example EchoBot is set up here: https://chatbox.prod.europe-west1.gc.chatlaye
 
 The backend is an API that contains the logic for the EchoBot. It allows one to send a request containing a message. The EchoBot will respond by echoing that message back as the response. Use a protocol of your choosing. We recommend creating a REST API but you may use Websockets, GraphQL, ... as well. Write the backend in any language. Node.js (JavaScript) is preferred. Even though it may be a tiny API, be sure to provide everything you would expect from a production-grade API.
 
-## Solution 
+#### Solution 
 
 For this part I used Websockets in Node. You can the find server.js file in de servermap
 
@@ -27,6 +27,6 @@ These are the minimum required components the frontend should consist:
 
 You may use a frontend library like React (JavaScript) to complete this part of the assignment, but it is not a necessity.
 
-## Solution
+#### Solution
 
 The frontend is build in the clientmap, where script.js is corresponding with server.js (backend)
